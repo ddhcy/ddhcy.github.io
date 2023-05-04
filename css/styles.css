@@ -1443,7 +1443,7 @@ h5,
 h6,
 .h6 {
     font-weight    : 700;
-    font-size      : var(--text-sm);
+    font-size      : var(--text-size);
     line-height    : var(--vspace-0_75);
     text-transform : uppercase;
     letter-spacing : .2rem;
@@ -2144,7 +2144,7 @@ input[type="button"] {
     display                 : inline-block;
     font-family             : var(--font-2);
     font-weight             : 400;
-    font-size               : calc(var(--text-size) * 0.6667);
+    font-size               : calc(var(--text-md) * 0.6667);
     text-transform          : uppercase;
     letter-spacing          : .3em;
     height                  : var(--btn-height);
@@ -2757,7 +2757,7 @@ td:last-child {
 
 .text-pretitle {
     font-weight    : 600;
-    font-size      : var(--text-sm);
+    font-size      : var(--text-md);
     text-transform : uppercase;
     letter-spacing : .3em;
     color          : var(--color-1);
@@ -3416,7 +3416,7 @@ img.u-pull-left {
     height         : 100%;
     background     : black;
     pointer-events : none;
-    opacity        : .5;
+    opacity        : .2;
 }
 
 .s-intro__bg::after {
@@ -3431,7 +3431,7 @@ img.u-pull-left {
     height         : 100%;
     background     : linear-gradient(0deg, black 15%, rgba(0, 0, 0, 0) 100%);
     pointer-events : none;
-    opacity        : .3;
+    opacity        : .2;
 }
 
 /* --------------------------------------------------------------------
@@ -3567,7 +3567,7 @@ img.u-pull-left {
 
 .s-intro__scroll-down span {
     font-family    : var(--font-2);
-    font-size      : 14px;
+    font-size      : 15px;
     font-weight    : 300;
     text-transform : uppercase;
     letter-spacing : .5em;
@@ -3801,7 +3801,6 @@ img.u-pull-left {
     }
 
     .s-intro__content-btn {
-        font-size    : 1rem;
         padding      : 0 2.8rem;
         margin-right : var(--vspace-0_625);
     }
