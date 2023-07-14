@@ -4666,3 +4666,17 @@ img.u-pull-left {
         width  : var(--vspace-1_5);
     }
 }
+
+/*map*/
+
+.my-map { margin: 0 auto;
+width: auto;
+height: 300px; }
+
+.my-map .icon { background: url(//a.amap.com/lbs-dev-yuntu/static/web/image/tools/creater/marker.png) no-repeat; }
+.my-map .icon-pot { height: 23px; width: 31px; }
+.my-map .icon-pot-red { background-position: -234px -5px; }
+     .amap-container{height: 100%;}
+     .myinfowindow{width: 220px;min-height: 50px;}
+     .myinfowindow p{ height: 30px; line-height: 30px; overflow: hidden; font-size: 18px; font-weight: bold; width: 220px; text-overflow: ellipsis; word-break: break-all; white-space: nowrap; }
+     .myinfowindow div{ margin-top: 20px; min-height: 40px; line-height: 20px; font-size: 13px; color: #6f6f6f; }
